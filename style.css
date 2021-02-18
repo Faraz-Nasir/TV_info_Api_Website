@@ -1,0 +1,17 @@
+.movie_card{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border: 2px solid grey;
+    margin:30px 30px;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.movie_card:hover{
+    padding: 25px;
+    box-shadow:10px 5px 5px red;
+}
+.movie_information{
+    padding: 15px;
+    max-width: 500px;
+}
